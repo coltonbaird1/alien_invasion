@@ -37,7 +37,7 @@ def check_events(ai_settings, screen, ship, bullets):
 
             
 
-def update_screen(ai_settings, screen, ship, alien, bullets):
+def update_screen(ai_settings, screen, ship, aliens, bullets):
     """Update images on the screen and flip the new screen."""
     # Redraw the screen during each pass through the loop
     screen.fill(ai_settings.bg_color)
